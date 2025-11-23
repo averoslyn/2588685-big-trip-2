@@ -1,7 +1,7 @@
 # Проект «Большое путешествие»
 
 * Студент: [Влада Непомилуева](https://up.htmlacademy.ru/ecmascript-individual/2/user/2588685).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Лепёшкин](https://htmlacademy.ru/profile/spearance).
 
 ---
 
