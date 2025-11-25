@@ -40,6 +40,8 @@ export default class SortView {
     if(!this.element) {
       this.element = createElement(this.getTemplate());
     }
+
+    return this.element;
   }
 
   removeElement() {
