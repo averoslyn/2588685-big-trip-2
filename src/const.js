@@ -1,3 +1,15 @@
+export const EVENT_TYPES = [
+  'taxi',
+  'bus',
+  'train',
+  'ship',
+  'drive',
+  'flight',
+  'check-in',
+  'sightseeing',
+  'restaurant',
+];
+
 export const POINT_DESCRIPTIONS = [
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   'Cras aliquet varius magna, non porta ligula feugiat eget.',
@@ -11,4 +23,21 @@ export const POINT_DESCRIPTIONS = [
   'In rutrum ac purus sit amet tempus.',
 ];
 
-export const POINTS_COUNT = 6;
+export const POINTS_COUNT = 5;
+
+export const DATE_FORMAT = {
+  SHORT_DATE: 'MMM DD',
+  FULL_DATE: 'YYYY-MM-DD',
+  ONLY_TIME: 'HH:mm',
+  FULL_DATE_AND_TIME: 'YYYY-MM-DDTHH:mm',
+  CALENDAR_DATE: 'DD/MM/YY',
+};
+
+export const defaultPoint = () => ({
+  basePrice: 0,
+  dateFrom: new Date().toISOString(),
+  dateTo: new Date().toISOString(),
+  destinationId: 'cfe416cq-10xa-ye10-8077-2fs9a01edcaa',
+  isFavorite: false,
+  type: EVENT_TYPES[0],
+});
